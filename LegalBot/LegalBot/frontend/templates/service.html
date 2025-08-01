@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Legal Services | Nyaya Shield</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: white;
+      padding: 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #d4af37;
+    }
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: 40px auto;
+    }
+    .service-card {
+      background-color: #1a1a1a;
+      border: 2px solid #d4af37;
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      display: block;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+    .service-card h3 {
+      color: #d4af37;
+      margin-bottom: 10px;
+    }
+    .service-card p {
+      color: #ccc;
+      font-size: 0.95rem;
+    }
+    .back-link {
+      text-align: center;
+      display: block;
+      margin-top: 30px;
+      color: #d4af37;
+      text-decoration: none;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Explore Our Legal Services</h1>
+
+  <div class="service-grid">
+    <a class="service-card" href="ipc.html">
+      <h3><i class="fas fa-gavel"></i> Criminal Law (IPC)</h3>
+      <p>Understand offenses, rights, and punishments under the Indian Penal Code.</p>
+    </a>
+    <a class="service-card" href="crpc.html">
+      <h3><i class="fas fa-clipboard-list"></i> Criminal Procedure (CrPC)</h3>
+      <p>Learn about police procedures, trials, bail, and investigations.</p>
+    </a>
+    <a class="service-card" href="it_act.html">
+      <h3><i class="fas fa-laptop"></i> Cyber Law (IT Act)</h3>
+      <p>Protect yourself from online fraud, data theft, and cybercrime.</p>
+    </a>
+    <a class="service-card" href="family.html">
+      <h3><i class="fas fa-home"></i> Family Law</h3>
+      <p>Resolve issues around marriage, divorce, child custody, and more.</p>
+    </a>
+    <a class="service-card" href="property.html">
+      <h3><i class="fas fa-building"></i> Property Law</h3>
+      <p>Get help with land disputes, tenancy, inheritance, and ownership rights.</p>
+    </a>
+    <a class="service-card" href="consumer.html">
+      <h3><i class="fas fa-shopping-cart"></i> Consumer Law</h3>
+      <p>Understand your rights as a buyer and take action against unfair practices.</p>
+    </a>
+  </div>
+
+  <a href="index.html" class="back-link">&larr; Back to index Page</a>
+
+</body>
+</html>
